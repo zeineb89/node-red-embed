@@ -3,5 +3,27 @@
   "description": "node-red embedding",
   "repository": "https://github.com/zeineb89/node-red-embed",
   "logo": "https://tekos.co/wp-content/uploads/2018/04/tekos-1-4-1024x768.png",
-  "keywords": ["tekos"]
+  "keywords": ["tekos"],
+  "env": {
+    "DATA_FOLDER": {
+      "description": "data folder",
+      "value": "/data"
+    },
+    "PORT": {
+      "description": "port",
+      "value": "4806"
+    },
+    "CHAT_APP_NAME": {
+      "description": "chat app name",
+      "value": "go"
+    },
+    "USER_ID": {
+      "description": "user id",
+      "value": "5cd2b5c14a4dfc001194e6ed"
+    },
+    "RED_OWNER_EMAIL": {
+      "description": "red owner email",
+      "value": "edugame@tekos.co"
+    }
+  },
 }
