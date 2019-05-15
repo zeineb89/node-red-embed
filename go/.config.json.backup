@@ -1,0 +1,875 @@
+{
+ "contextProviders": {},
+ "nodes": {
+  "node-red": {
+   "name": "node-red",
+   "version": "0.19.5",
+   "local": false,
+   "nodes": {
+    "inject": {
+     "name": "inject",
+     "types": [
+      "inject"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/20-inject.js"
+    },
+    "catch": {
+     "name": "catch",
+     "types": [
+      "catch"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/25-catch.js"
+    },
+    "status": {
+     "name": "status",
+     "types": [
+      "status"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/25-status.js"
+    },
+    "debug": {
+     "name": "debug",
+     "types": [
+      "debug"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/58-debug.js"
+    },
+    "link": {
+     "name": "link",
+     "types": [
+      "link in",
+      "link out"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/60-link.js"
+    },
+    "function": {
+     "name": "function",
+     "types": [
+      "function"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/80-function.js"
+    },
+    "template": {
+     "name": "template",
+     "types": [
+      "template"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/80-template.js"
+    },
+    "delay": {
+     "name": "delay",
+     "types": [
+      "delay"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/89-delay.js"
+    },
+    "trigger": {
+     "name": "trigger",
+     "types": [
+      "trigger"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/89-trigger.js"
+    },
+    "comment": {
+     "name": "comment",
+     "types": [
+      "comment"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/90-comment.js"
+    },
+    "unknown": {
+     "name": "unknown",
+     "types": [
+      "unknown"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/core/98-unknown.js"
+    },
+    "tls": {
+     "name": "tls",
+     "types": [
+      "tls-config"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/io/05-tls.js"
+    },
+    "mqtt": {
+     "name": "mqtt",
+     "types": [
+      "mqtt in",
+      "mqtt out",
+      "mqtt-broker"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/io/10-mqtt.js"
+    },
+    "httpin": {
+     "name": "httpin",
+     "types": [
+      "http in",
+      "http response"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/io/21-httpin.js"
+    },
+    "httprequest": {
+     "name": "httprequest",
+     "types": [
+      "http request"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/io/21-httprequest.js"
+    },
+    "switch": {
+     "name": "switch",
+     "types": [
+      "switch"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/logic/10-switch.js"
+    },
+    "range": {
+     "name": "range",
+     "types": [
+      "range"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/logic/16-range.js"
+    },
+    "split": {
+     "name": "split",
+     "types": [
+      "split",
+      "join"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/logic/17-split.js"
+    },
+    "sort": {
+     "name": "sort",
+     "types": [
+      "sort"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/logic/18-sort.js"
+    },
+    "batch": {
+     "name": "batch",
+     "types": [
+      "batch"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/logic/19-batch.js"
+    },
+    "HTML": {
+     "name": "HTML",
+     "types": [
+      "html"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/parsers/70-HTML.js"
+    },
+    "JSON": {
+     "name": "JSON",
+     "types": [
+      "json"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/parsers/70-JSON.js"
+    },
+    "XML": {
+     "name": "XML",
+     "types": [
+      "xml"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/parsers/70-XML.js"
+    },
+    "YAML": {
+     "name": "YAML",
+     "types": [
+      "yaml"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/src/node-red/node_modules/node-red/nodes/core/parsers/70-YAML.js"
+    }
+   }
+  },
+  "node-red-contrib-tekosbot-dialogue": {
+   "name": "node-red-contrib-tekosbot-dialogue",
+   "version": "0.0.7",
+   "local": true,
+   "nodes": {
+    "tekosbot-message": {
+     "name": "tekosbot-message",
+     "types": [
+      "chatbot-message"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-dialogue",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-dialogue/nodes/chatbot-message.js"
+    },
+    "tekosbot-quick-replies": {
+     "name": "tekosbot-quick-replies",
+     "types": [
+      "chatbot-quick-replies"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-dialogue",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-dialogue/nodes/chatbot-quick-replies.js"
+    },
+    "tekosbot-generic-template": {
+     "name": "tekosbot-generic-template",
+     "types": [
+      "chatbot-generic-template"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-dialogue",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-dialogue/nodes/chatbot-generic-template.js"
+    },
+    "tekosbot-form": {
+     "name": "tekosbot-form",
+     "types": [
+      "form"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-dialogue",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-dialogue/nodes/tekos-form.js"
+    },
+    "tekosbot-context": {
+     "name": "tekosbot-context",
+     "types": [
+      "chatbot-context"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-dialogue",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-dialogue/nodes/chatbot-context.js"
+    },
+    "tekosbot-inline-buttons": {
+     "name": "tekosbot-inline-buttons",
+     "types": [
+      "chatbot-inline-buttons"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-dialogue",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-dialogue/nodes/chatbot-inline-buttons.js"
+    },
+    "tekosbot-media": {
+     "name": "tekosbot-media",
+     "types": [
+      "tekosbot-image",
+      "tekosbot-video"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-dialogue",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-dialogue/nodes/tekosbot-media.js"
+    },
+    "tekos-facebook-menu": {
+     "name": "tekos-facebook-menu",
+     "types": [
+      "tekos-facebook-menu"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-dialogue",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-dialogue/nodes/tekos-facebook-menu.js"
+    },
+    "tekos-waiting": {
+     "name": "tekos-waiting",
+     "types": [
+      "tekos-waiting"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-dialogue",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-dialogue/nodes/tekos-waiting.js"
+    }
+   }
+  },
+  "node-red-contrib-filter": {
+   "name": "node-red-contrib-filter",
+   "version": "0.1.3",
+   "local": true,
+   "nodes": {
+    "filter": {
+     "name": "filter",
+     "types": [
+      "filter"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-filter",
+     "file": "/data/node_modules/node-red-contrib-filter/18-filter.js"
+    }
+   }
+  },
+  "node-red-contrib-mongodb3": {
+   "name": "node-red-contrib-mongodb3",
+   "version": "1.0.0",
+   "local": true,
+   "nodes": {
+    "mongodb": {
+     "name": "mongodb",
+     "types": [
+      "mongodb3",
+      "mongodb3 in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-mongodb3",
+     "file": "/data/node_modules/node-red-contrib-mongodb3/mongodb/mongodb.js"
+    }
+   }
+  },
+  "node-red-contrib-splitter": {
+   "name": "node-red-contrib-splitter",
+   "version": "0.0.16",
+   "local": true,
+   "nodes": {
+    "splitter": {
+     "name": "splitter",
+     "types": [
+      "splitter"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-splitter",
+     "file": "/data/node_modules/node-red-contrib-splitter/splitter.js"
+    }
+   }
+  },
+  "node-red-contrib-tekosbot-analytics": {
+   "name": "node-red-contrib-tekosbot-analytics",
+   "version": "0.0.3",
+   "local": true,
+   "nodes": {
+    "tekos-dashbot": {
+     "name": "tekos-dashbot",
+     "types": [
+      "Dashbot In",
+      "Dashbot Out",
+      "dashbot-app"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-analytics",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-analytics/nodes/tekos-dashbot.js"
+    }
+   }
+  },
+  "node-red-contrib-tekosbot-apis": {
+   "name": "node-red-contrib-tekosbot-apis",
+   "version": "0.0.6",
+   "local": true,
+   "nodes": {
+    "tekos-hubspot-contact": {
+     "name": "tekos-hubspot-contact",
+     "types": [
+      "Hubspot Contact",
+      "Hubspot Engagement",
+      "hubspot-app"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-apis",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-apis/nodes/tekos-hubspot-contact.js"
+    }
+   }
+  },
+  "node-red-contrib-tekosbot-basic": {
+   "name": "node-red-contrib-tekosbot-basic",
+   "version": "0.0.12",
+   "local": true,
+   "nodes": {
+    "tekosbot-dsmessages": {
+     "name": "tekosbot-dsmessages",
+     "types": [
+      "Deepstream RPC make",
+      "Deepstream RPC provide",
+      "Deepstream RPC response",
+      "Deepstream Event emit",
+      "Deepstream Event subscribe",
+      "DS Message receive",
+      "DS Message Router",
+      "DS Message listener",
+      "Deepstream Record update",
+      "DS Message send",
+      "DS Action Trigger",
+      "Authentication",
+      "stripe-pay",
+      "Redirect Action",
+      "Manage Apps",
+      "Clear Messages",
+      "Disable Msg Input",
+      "Upload Images",
+      "Upload Image",
+      "DS App switcher",
+      "Deepstream Record subscribe",
+      "Deepstream Record get",
+      "hanna-app",
+      "deepstream-server"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-basic",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-basic/nodes/dsmessages.js"
+    }
+   }
+  },
+  "node-red-contrib-tekosbot-channels": {
+   "name": "node-red-contrib-tekosbot-channels",
+   "version": "0.0.7",
+   "local": true,
+   "nodes": {
+    "tekos-telegram-node": {
+     "name": "tekos-telegram-node",
+     "types": [
+      "chatbot-telegram-node",
+      "chatbot-telegram-receive",
+      "chatbot-telegram-send"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-channels",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-channels/nodes/chatbot-telegram-receive.js"
+    },
+    "chatbot-twilio-node": {
+     "name": "chatbot-twilio-node",
+     "types": [
+      "chatbot-twilio-node",
+      "chatbot-twilio-receive",
+      "chatbot-twilio-send"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-channels",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-channels/nodes/tekos-twilio.js"
+    },
+    "tekosbot-facebook": {
+     "name": "tekosbot-facebook",
+     "types": [
+      "chatbot-facebook-node",
+      "chatbot-facebook-receive",
+      "chatbot-facebook-send",
+      "chatbot-facebook-notif"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-channels",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-channels/nodes/chatbot-facebook-receive.js"
+    },
+    "tekosbot-slack": {
+     "name": "tekosbot-slack",
+     "types": [
+      "tekos-slack",
+      "tekos-slack in",
+      "tekos-slack out"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-channels",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-channels/nodes/tekosbot-slack.js"
+    },
+    "tekos-drift": {
+     "name": "tekos-drift",
+     "types": [
+      "Drift",
+      "drift-config"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-channels",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-channels/nodes/tekos-drift.js"
+    },
+    "tekos-drift-in": {
+     "name": "tekos-drift-in",
+     "types": [
+      "drift in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-channels",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-channels/nodes/tekos-drift-in.js"
+    },
+    "tekos-intercom": {
+     "name": "tekos-intercom",
+     "types": [
+      "Intercom",
+      "intercom-config"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-channels",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-channels/nodes/tekos-intercom.js"
+    },
+    "tekos-intercom-in": {
+     "name": "tekos-intercom-in",
+     "types": [
+      "intercom in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-channels",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-channels/nodes/tekos-intercom-in.js"
+    }
+   }
+  },
+  "node-red-contrib-tekosbot-data": {
+   "name": "node-red-contrib-tekosbot-data",
+   "version": "0.0.5",
+   "local": true,
+   "nodes": {
+    "tekos-CMS": {
+     "name": "tekos-CMS",
+     "types": [
+      "Headless CMS",
+      "headless-app"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-data",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-data/nodes/tekos-CMS.js"
+    }
+   }
+  },
+  "node-red-contrib-merge": {
+   "name": "node-red-contrib-merge",
+   "version": "0.1.1",
+   "local": true,
+   "nodes": {
+    "merge": {
+     "name": "merge",
+     "types": [
+      "merge"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-merge",
+     "file": "/data/node_modules/node-red-contrib-merge/17-merge.js"
+    }
+   }
+  },
+  "node-red-contrib-tekosbot-nlp": {
+   "name": "node-red-contrib-tekosbot-nlp",
+   "version": "0.0.5",
+   "local": true,
+   "nodes": {
+    "tekosbot-tekos-nlp": {
+     "name": "tekosbot-tekos-nlp",
+     "types": [
+      "tekos-nlp"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-nlp",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-nlp/nodes/chatbot-tekos-nlp.js"
+    },
+    "tekos-recast": {
+     "name": "tekos-recast",
+     "types": [
+      "tekos-recast-token",
+      "tekos-recast"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-nlp",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-nlp/nodes/tekos-recast.js"
+    },
+    "tekos-wit": {
+     "name": "tekos-wit",
+     "types": [
+      "tekos-wit text",
+      "tekos-wit voice"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-nlp",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-nlp/nodes/tekos-wit.js"
+    },
+    "tekos-luis": {
+     "name": "tekos-luis",
+     "types": [
+      "tekos-luis"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-nlp",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-nlp/nodes/tekos-luis.js"
+    },
+    "tekos-watson": {
+     "name": "tekos-watson",
+     "types": [
+      "natural-language-understanding"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-nlp",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-nlp/nodes/tekos-watson.js"
+    }
+   }
+  },
+  "node-red-contrib-tekosbot-pushnotif": {
+   "name": "node-red-contrib-tekosbot-pushnotif",
+   "version": "0.0.5",
+   "local": true,
+   "nodes": {
+    "tekosbot-subscription": {
+     "name": "tekosbot-subscription",
+     "types": [
+      "get-subscriptions",
+      "add-subscription",
+      "tekos-notify"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-pushnotif",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-pushnotif/nodes/tekosbot-subscription.js"
+    }
+   }
+  },
+  "node-red-contrib-tekosbot-tts": {
+   "name": "node-red-contrib-tekosbot-tts",
+   "version": "0.0.4",
+   "local": true,
+   "nodes": {
+    "tekosbot-text-speech": {
+     "name": "tekosbot-text-speech",
+     "types": [
+      "chatbot-text-speech"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-tts",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-tts/nodes/chatbot-text-speech.js"
+    },
+    "watson-text-speech": {
+     "name": "watson-text-speech",
+     "types": [
+      "watson-text-speech"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-tekosbot-tts",
+     "file": "/data/node_modules/node-red-contrib-tekosbot-tts/nodes/watson-text-speech.js"
+    }
+   }
+  },
+  "node-red-contrib-viseo-chatbase": {
+   "name": "node-red-contrib-viseo-chatbase",
+   "version": "0.0.5",
+   "local": true,
+   "nodes": {
+    "node-chatbase": {
+     "name": "node-chatbase",
+     "types": [
+      "node-chatbase"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-viseo-chatbase",
+     "file": "/data/node_modules/node-red-contrib-viseo-chatbase/node-chatbase.js"
+    },
+    "chatbase-config": {
+     "name": "chatbase-config",
+     "types": [
+      "chatbase-config"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-viseo-chatbase",
+     "file": "/data/node_modules/node-red-contrib-viseo-chatbase/chatbase-config.js"
+    }
+   }
+  },
+  "node-red-node-base64": {
+   "name": "node-red-node-base64",
+   "version": "0.1.3",
+   "local": true,
+   "nodes": {
+    "base64": {
+     "name": "base64",
+     "types": [
+      "base64"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-base64",
+     "file": "/data/node_modules/node-red-node-base64/70-base64.js"
+    }
+   }
+  },
+  "node-red-node-email": {
+   "name": "node-red-node-email",
+   "version": "0.1.29",
+   "local": false,
+   "nodes": {
+    "email": {
+     "name": "email",
+     "types": [
+      "e-mail",
+      "e-mail in"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-email",
+     "file": "/usr/src/node-red/node_modules/node-red/node_modules/node-red-node-email/61-email.js"
+    }
+   }
+  },
+  "node-red-node-feedparser": {
+   "name": "node-red-node-feedparser",
+   "version": "0.1.14",
+   "local": false,
+   "nodes": {
+    "feedparse": {
+     "name": "feedparse",
+     "types": [
+      "feedparse"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-feedparser",
+     "file": "/usr/src/node-red/node_modules/node-red-node-feedparser/32-feedparse.js"
+    }
+   }
+  },
+  "node-red-node-rbe": {
+   "name": "node-red-node-rbe",
+   "version": "0.2.4",
+   "local": false,
+   "nodes": {
+    "rbe": {
+     "name": "rbe",
+     "types": [
+      "rbe"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-rbe",
+     "file": "/usr/src/node-red/node_modules/node-red-node-rbe/rbe.js"
+    }
+   }
+  },
+  "node-red-node-twitter": {
+   "name": "node-red-node-twitter",
+   "version": "1.1.4",
+   "local": false,
+   "nodes": {
+    "twitter": {
+     "name": "twitter",
+     "types": [
+      "twitter-credentials",
+      "twitter in",
+      "twitter out"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-node-twitter",
+     "file": "/usr/src/node-red/node_modules/node-red-node-twitter/27-twitter.js"
+    }
+   }
+  }
+ },
+ "_credentialSecret": "be307ea002f285b21dd101af097a8a5f347b8ed7b027437b5faedb90afcc6d41",
+ "users": {
+  "miled": {
+   "editor": {
+    "view": {
+     "view-grid-size": "20",
+     "view-node-status": true,
+     "view-show-tips": true,
+     "view-snap-grid": false,
+     "view-show-grid": false
+    }
+   },
+   "menu-menu-item-sidebar": true
+  },
+  "admin": {
+   "editor": {
+    "view": {
+     "view-grid-size": "20",
+     "view-node-status": true,
+     "view-show-tips": true,
+     "view-snap-grid": true,
+     "view-show-grid": true
+    }
+   }
+  },
+  "hellotekos@gmail.com": {
+   "editor": {
+    "view": {
+     "view-grid-size": 20,
+     "view-node-status": true,
+     "view-show-tips": true,
+     "view-snap-grid": true,
+     "view-show-grid": true
+    }
+   }
+  }
+ }
+}
