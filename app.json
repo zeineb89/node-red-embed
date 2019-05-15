@@ -7,7 +7,7 @@
   "env": {
     "DATA_FOLDER": {
       "description": "data folder",
-      "value": "/data"
+      "value": "./data"
     },
     "PORT": {
       "description": "port",
