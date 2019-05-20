@@ -17,7 +17,7 @@ var settings = {
     // httpAdminRoot: "/"+process.env.USER_TOKEN+"/red",
     httpAdminRoot: "/",
     httpNodeRoot: "/",
-    userDir: process.env.DATA_FOLDER || "/data",
+    userDir: process.env.DATA_FOLDER || "./data",
     flowFile: 'flows_tekos-prod.json',
     editorTheme: {
         page: {
