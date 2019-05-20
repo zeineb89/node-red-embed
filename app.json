@@ -26,10 +26,12 @@
       "value": "edugame@tekos.co"
     },
     "RED_USERNAME": {
-      "description": "red owner username"
+      "description": "red owner username",
+      "value": ""
     },
     "RED_PASSWORD": {
-      "description": "red owner password"
+      "description": "red owner password",
+      "value": ""
     }
   }
 }
