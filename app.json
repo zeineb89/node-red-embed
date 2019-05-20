@@ -25,14 +25,6 @@
       "description": "red owner email",
       "value": "edugame@tekos.co"
     },
-    "RED_USERNAME": {
-      "description": "red owner username",
-      "value": ""
-    },
-    "RED_PASSWORD": {
-      "description": "red owner password",
-      "value": ""
-    },
     "API_SERVER": {
       "description": "red owner password",
       "value": "https://api.test.tekos.co"
