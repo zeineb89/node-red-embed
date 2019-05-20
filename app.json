@@ -32,6 +32,10 @@
     "RED_PASSWORD": {
       "description": "red owner password",
       "value": ""
+    },
+    "API_SERVER": {
+      "description": "red owner password",
+      "value": "https://api.test.tekos.co"
     }
   }
 }
