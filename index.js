@@ -22,16 +22,16 @@ var settings = {
     editorTheme: {
         page: {
             title: "Tekos Flow",
-            favicon: "/data/assets/tekos_logo.png",
-            css: "/data/assets/tekos.css"
+            favicon: "./data/assets/tekos_logo.png",
+            css: "./data/assets/tekos.css"
         },
         header: {
             title: " ",
-            image: "/data/assets/logo_chat.png", // or null to remove image
+            image: "./data/assets/logo_chat.png", // or null to remove image
         },
         
         login: {
-            image: "/data/assets/tekos_logo.png" // a 256x256 image
+            image: "./data/assets/tekos_logo.png" // a 256x256 image
         },
          menu: { 
             "menu-item-node-red-version": false,
@@ -55,7 +55,7 @@ var settings = {
 };
 
 
-settings.adminAuth = require('./user-auth')();
+//settings.adminAuth = require('./user-auth')();
 
 // if(process.env.RED_USERNAME){
 
