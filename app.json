@@ -5,29 +5,13 @@
   "logo": "https://tekos.co/wp-content/uploads/2018/04/tekos-1-4-1024x768.png",
   "keywords": ["tekos"],
   "env": {
-    "DATA_FOLDER": {
-      "description": "data folder",
-      "value": "./data"
+    "RED_USERNAME": {
+      "description": "red owner username",
+      "value": ""
     },
-    "PORT": {
-      "description": "port",
-      "value": "4806"
-    },
-    "CHAT_APP_NAME": {
-      "description": "chat app name",
-      "value": "go"
-    },
-    "USER_ID": {
-      "description": "user id",
-      "value": "5cd2b5c14a4dfc001194e6ed"
-    },
-    "RED_OWNER_EMAIL": {
-      "description": "red owner email",
-      "value": "edugame@tekos.co"
-    },
-    "API_SERVER": {
+    "RED_PASSWORD": {
       "description": "red owner password",
-      "value": "https://api.test.tekos.co"
+      "value": ""
     }
   }
 }
