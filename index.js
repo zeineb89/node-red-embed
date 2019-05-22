@@ -17,7 +17,7 @@ var settings = {
     // httpAdminRoot: "/"+process.env.USER_TOKEN+"/red",
     httpAdminRoot: "/",
     httpNodeRoot: "/",
-    userDir: process.env.DATA_FOLDER || "/data",
+    userDir: process.env.DATA_FOLDER || "./data",
     flowFile: 'flows_tekos-prod.json',
     editorTheme: {
         page: {
@@ -59,21 +59,21 @@ settings.adminAuth = require('./user-auth')();
 
 // if(process.env.RED_USERNAME){
 
-//         settings.adminAuth= {
-//             type: "credentials",
-//             users: [{
-//                     username: process.env.RED_USERNAME,
-//                     password: process.env.RED_PASSWORD,
-//                     permissions: "*"
-//                 },
-//                 {
-//                     username: 'admin',
-//                     password: '$2b$08$fhUdVPOJH3ntAZIDqfj7vuoYJ4EEpv/wBicKodGHOEzlHt84BnwHm',
-//                     permissions: '*'
-//                 }
-//             ]
-//         }
-// }
+  //       settings.adminAuth= {
+    //         type: "credentials",
+      //       users: [{
+        //             username: process.env.RED_USERNAME,
+          //           password: process.env.RED_PASSWORD,
+            //         permissions: "*"
+              //   }/*,
+                // {
+                 //    username: 'admin',
+                 //    password: '$2b$08$fhUdVPOJH3ntAZIDqfj7vuoYJ4EEpv/wBicKodGHOEzlHt84BnwHm',
+                 //    permissions: '*'
+               //  }*/
+           //  ]
+     //    }
+//}
 
 // Initialise the runtime with a server and settings
 RED.init(server,settings);
